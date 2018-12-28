@@ -1,0 +1,15 @@
+form {
+    width: 25%;
+    margin: 0 auto;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+nav h3 {
+    color: #fff;
+    margin: 0 auto;
+}
+
+.form-control {
+    margin-bottom: 25px;
+}

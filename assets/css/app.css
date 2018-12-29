@@ -54,3 +54,25 @@ ul.list-unstyled li.active span.oi {
     padding-left: 115px !important;
     padding-top: 25px;
 }
+
+.col-sm-4.right_di {
+    position: absolute;
+    bottom: 0;
+    top: 70px;
+    right: 0;
+    background-color: #f7f7f7;
+}
+
+.col-sm-8.left-di {
+    position: absolute;
+    bottom: 0;
+    top: 70px;
+    left: 100px;
+}
+
+@media (min-width: 576px) {
+    .col-sm-8.left-di {
+        flex: 0 0 66.666667%;
+        max-width: 61.666667%;
+    }
+}
